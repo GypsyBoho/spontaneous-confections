@@ -1,7 +1,7 @@
 //----- IMPORTS -----//
 
 //CSS
-import '../assets/css/Home.css';
+import '../assets/css/About.css';
 
 //Images
 // import star from '../assets/images/star.png';
