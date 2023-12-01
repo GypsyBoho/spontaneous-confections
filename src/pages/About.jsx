@@ -8,7 +8,7 @@ import '../assets/css/About.css';
 // import header from '../assets/images/header.png';
 
 //----- EXPORTS -----//
-export default function Home() {
+export default function About() {
 
     //Return
     return (

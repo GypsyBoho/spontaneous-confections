@@ -8,7 +8,7 @@ import '../assets/css/Menu.css';
 // import header from '../assets/images/header.png';
 
 //----- EXPORTS -----//
-export default function Home() {
+export default function Menu() {
 
     //Return
     return (

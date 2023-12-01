@@ -11,7 +11,7 @@ import '../assets/css/Contact.css';
 // import header from '../assets/images/header.png';
 
 //----- EXPORTS -----//
-export default function Home() {
+export default function Contact() {
 
     //Return
     return (
