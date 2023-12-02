@@ -1,5 +1,10 @@
 //----- IMPORTS -----//
-import { Outlet } from "react-router-dom";
+import Nav from './components/Nav';
+import Home from './pages/Home';
+import About from './pages/About';
+import Menu from './pages/Menu';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 //CSS
 import 'normalize.css'
@@ -9,7 +14,14 @@ function App() {
 
   //Return
   return (
-    <Outlet />
+    <main>
+      <Nav />
+      <Home />
+      <About />
+      <Menu />
+      <Contact />
+      <Footer />
+    </main>
   )
 }
 

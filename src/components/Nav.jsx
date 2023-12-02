@@ -4,8 +4,7 @@
 import '../assets/css/Nav.css';
 
 //Images
-// import star from '../assets/images/star.png';
-// import header from '../assets/images/header.png';
+import cookie from '../assets/images/cookie-logo.png';
 
 //----- EXPORTS -----//
 export default function Nav() {
@@ -14,13 +13,13 @@ export default function Nav() {
     return (
         <section>
             <div>
-                <h1></h1>
-                <img src="" alt="" />
+                <h1>Spontaneous Confections</h1>
+                <img src={cookie} alt="cookie logo" />
             </div>
             <div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="">ABOUT</a>
+                <a href="">MENU</a>
+                <a href="">CONTACT</a>
             </div>
         </section>
     )
