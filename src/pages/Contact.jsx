@@ -17,8 +17,10 @@ export default function Contact() {
     return (
         <section>
             <div>
-                <h2></h2>
-                <p></p>
+                <h2>EXPERIENCE SWEETNESS LIKE NEVER BEFORE</h2>
+                <p>Whether you're ready to order, have
+                    questions or simply want to talk, we are
+                    always available to assist you.</p>
             </div>
             <aside>
                 <ContactForm />
