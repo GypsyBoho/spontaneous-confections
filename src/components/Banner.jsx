@@ -4,8 +4,7 @@
 import '../assets/css/Banner.css';
 
 //Images
-// import star from '../assets/images/star.png';
-// import header from '../assets/images/header.png';
+import cookie from '../assets/images/cookie-logo.png';
 
 //----- EXPORTS -----//
 export default function Banner() {
@@ -13,8 +12,8 @@ export default function Banner() {
     //Return
     return (
         <section>
-            <p></p>
-            <img src="" alt="" />
+            <p> AN EXPLOSION OF FLAVOR </p>
+            <img src={cookie} alt="cookie logo" />
         </section>
     )
 }
