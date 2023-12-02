@@ -14,9 +14,9 @@ export default function Home() {
     return (
         <section>
             <div>
-                <p></p>
-                <p></p>
-                <button></button>
+                <p>Indulge in Festive Treats for Your Holiday Gatherings!</p>
+                <p>Secure your sweet moments with us today.</p>
+                <button>CONTACT US</button>
             </div>
         </section>
     )
