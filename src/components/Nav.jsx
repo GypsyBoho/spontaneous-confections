@@ -1,5 +1,8 @@
 //----- IMPORTS -----//
 
+//React
+import { Link } from 'react-router-dom';
+
 //CSS
 import '../assets/css/Nav.css';
 
@@ -11,16 +14,16 @@ export default function Nav() {
 
     //Return
     return (
-        <section>
-            <div>
-                <h1>Spontaneous Confections</h1>
+        <nav>
+            <div className='logo'>
+                <h1>Spontaneous <br /> Confections</h1>
                 <img src={cookie} alt="cookie logo" />
             </div>
-            <div>
-                <a href="">ABOUT</a>
-                <a href="">MENU</a>
-                <a href="">CONTACT</a>
+            <div className='links'>
+                <Link to="/about">ABOUT</Link>
+                <Link to="/menu">MENU</Link>
+                <Link to="/contact">CONTACT</Link>
             </div>
-        </section>
+        </nav>
     )
 }
