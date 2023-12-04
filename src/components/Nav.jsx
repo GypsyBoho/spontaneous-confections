@@ -1,7 +1,7 @@
 //----- IMPORTS -----//
 
 //React
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 //CSS
 import '../assets/css/Nav.css';
@@ -20,9 +20,21 @@ export default function Nav() {
                 <img src={cookie} alt="cookie logo" />
             </div>
             <div className='links'>
-                <Link to="/about">ABOUT</Link>
-                <Link to="/menu">MENU</Link>
-                <Link to="/contact">CONTACT</Link>
+                <div>
+                    <ScrollLink to="about" smooth={true} duration={500}>
+                        ABOUT
+                    </ScrollLink>
+                </div>
+                <div>
+                    <ScrollLink to="menu" smooth={true} duration={500}>
+                        MENU
+                    </ScrollLink>
+                </div>
+                <div>
+                    <ScrollLink to="contact" smooth={true} duration={500}>
+                        CONTACT
+                    </ScrollLink>
+                </div>
             </div>
         </nav>
     )

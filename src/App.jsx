@@ -16,10 +16,18 @@ function App() {
   return (
     <main>
       <Nav />
-      <Home />
-      <About />
-      <Menu />
-      <Contact />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="menu">
+        <Menu />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
       <Footer />
     </main>
   )

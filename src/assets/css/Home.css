@@ -32,13 +32,14 @@
 .promo {
     /* outline: red dashed 2px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 45px;
-    margin: 50px 50px 20px 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 20px 0 50px;
 }
 
 .message {
     /* outline: red dashed 2px; */
-    margin: 50px 50px 20px 50px;
+    margin: 50px 0 50px 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
@@ -51,5 +52,4 @@
     border: none;
     padding: 10px 30px 10px 30px;
     margin-left: 50px;
-    margin-top: 20px;
 }
