@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-    --purple: #6F3F61;
+    --purple: #9C36B5;
     --teal: #84D4D4;
     --tan: #FBCBBB;
     --accent: #D7A7C9;
@@ -33,7 +33,7 @@ nav {
 
 .logo h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     margin: 0;
     color: var(--teal);
