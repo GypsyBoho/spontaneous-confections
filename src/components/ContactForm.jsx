@@ -1,5 +1,8 @@
 //----- IMPORTS -----//
 
+//CSS
+import '../assets/css/ContactForm.css';
+
 //React
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -15,11 +18,11 @@ export default function ContactForm() {
     return (
         <form className='contact-form' onSubmit={handleSubmit}>
 
-            <div>
+            <div className='full-name'>
                 {/*--- FIRST NAME ---*/}
-                <label
+                {/* <label
                     for="first-name">First Name
-                </label>
+                </label> */}
                 <input
                     type="text"
                     name="first-name"
@@ -28,9 +31,9 @@ export default function ContactForm() {
                     required=""
                 />
                 {/*--- LAST NAME ---*/}
-                <label
+                {/* <label
                     for="last-name">Last Name
-                </label>
+                </label> */}
                 <input
                     type="text"
                     name="last-name"
@@ -40,11 +43,11 @@ export default function ContactForm() {
                 />
             </div>
 
-            <div>
+            <div className='email-date'>
                 {/*--- EMAIL ---*/}
-                <label
+                {/* <label
                     for="email-address">Email Address
-                </label>
+                </label> */}
                 <input
                     type="email"
                     name="_replyto"
@@ -58,9 +61,9 @@ export default function ContactForm() {
                     errors={state.errors}
                 />
                 {/*--- EVENT DATE ---*/}
-                <label
+                {/* <label
                     for="event-date">Event Date
-                </label>
+                </label> */}
                 <input
                     type="date"
                     name="event-date"
@@ -70,11 +73,12 @@ export default function ContactForm() {
                 />
             </div>
 
-            <div>
+            <div className='input-message'>
                 {/*--- MESSAGE ---*/}
                 <textarea
                     id="message"
                     name="message"
+                    placeholder="Let's get this conversation started!"
                 />
                 <ValidationError
                     prefix="Message"
@@ -84,11 +88,14 @@ export default function ContactForm() {
             </div>
 
             {/*--- SUBMIT ---*/}
-            <button
-                type="submit"
-                disabled={state.submitting}>
-                Submit
-            </button>
+            <div className='form-button-container'>
+                <button
+                    className='form-button'
+                    type="submit"
+                    disabled={state.submitting}>
+                    Submit
+                </button>
+            </div>
         </form>
     )
 }

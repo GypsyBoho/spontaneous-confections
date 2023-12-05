@@ -10,43 +10,50 @@
 
 /* CONTACT */
 .contact {
+    /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
 }
 
 /* ARTICLE */
 .contact-message {
-    outline: red dashed 3px;
-    margin-left: 100px;
-    width: 50%;
+    /* outline: red dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 30%;
+    height: 50%;
 }
 
 /* TITLE */
 .contact-message h2 {
-    /* outline: red dashed 3px; */
+    /* outline: blue dashed 3px; */
     font-family: 'Segoe UI', sans-serif;
     font-size: 50px;
     color: var(--purple);
-
+    margin: 0 0 50px 0;
+    width: 100%;
 }
 
 /* MESSAGE */
 .contact-message p {
-    outline: red dashed 3px;
+    /* outline: red dashed 3px; */
     font-size: 20px;
     line-height: 1.5;
-    margin-right: 50px;
+    width: 100%;
+    margin: 0;
 }
 
 /* FORM */
 .form-container {
-    outline: red dashed 3px;
+    /* outline: red dashed 3px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
-    width: 50%;
+    width: 30%;
+    height: 50%;
 }
