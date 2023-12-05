@@ -6,7 +6,28 @@
     --accent: #D7A7C9;
 }
 
-/* ---------------------------------------- */
+/* Fonts */
+@font-face {
+    font-family: main;
+    src: url('../fonts/Birbaslo.ttf');
+}
+
+@font-face {
+    font-family: advent;
+    src: url('../fonts/AdventPro.ttf');
+}
+
+@font-face {
+    font-family: regular;
+    src: url('../fonts/Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto.ttf');
+}
+
+/* -------------------------------------------------------------------------------- */
 
 /* BACKGROUND */
 .menu {
@@ -19,7 +40,7 @@
 /* TITLE */
 h3 {
     /* outline: blue dashed 3px; */
-    font-family: 'Segoe UI', sans-serif;
+    font-family: roboto;
     font-size: 70px;
     text-align: center;
     color: var(--purple);
@@ -33,6 +54,7 @@ h3 {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 75%;
+    margin-bottom: 75px;
 }
 
 .menu-item {
@@ -69,7 +91,7 @@ h3 {
 /* DESCRIPTION */
 .menu-image p {
     /* outline: red dashed 3px; */
-    font-family: 'Segoe UI', sans-serif;
+    font-family: regular;
     font-size: 20px;
     text-align: center;
     margin: 0 20px 0 20px;
@@ -91,8 +113,8 @@ h3 {
 
 /* NAME */
 .menu-info h4 {
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 20px;
+    font-family: advent;
+    font-size: 25px;
     color: var(--purple);
     margin: 0;
 }
@@ -100,7 +122,7 @@ h3 {
 /* PRICING */
 .menu-info p {
     /* outline: red dashed 2px; */
-    font-family: 'Segoe UI', sans-serif;
+    font-family: regular;
     font-size: 18px;
     background-color: var(--accent);
     color: var(--purple);

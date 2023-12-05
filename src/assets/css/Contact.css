@@ -6,7 +6,28 @@
     --accent: #D7A7C9;
 }
 
-/* ---------------------------------------- */
+/* Fonts */
+@font-face {
+    font-family: main;
+    src: url('../fonts/Birbaslo.ttf');
+}
+
+@font-face {
+    font-family: advent;
+    src: url('../fonts/AdventPro.ttf');
+}
+
+@font-face {
+    font-family: regular;
+    src: url('../fonts/Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto.ttf');
+}
+
+/* -------------------------------------------------------------------------------- */
 
 /* CONTACT */
 .contact {
@@ -32,8 +53,8 @@
 /* TITLE */
 .contact-message h2 {
     /* outline: blue dashed 3px; */
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 50px;
+    font-family: roboto;
+    font-size: 60px;
     color: var(--purple);
     margin: 0 0 50px 0;
     width: 100%;
@@ -42,6 +63,7 @@
 /* MESSAGE */
 .contact-message p {
     /* outline: red dashed 3px; */
+    font-family: regular;
     font-size: 20px;
     line-height: 1.5;
     width: 100%;

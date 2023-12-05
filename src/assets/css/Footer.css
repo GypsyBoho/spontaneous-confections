@@ -6,7 +6,28 @@
     --accent: #D7A7C9;
 }
 
-/* ---------------------------------------- */
+/* Fonts */
+@font-face {
+    font-family: main;
+    src: url('../fonts/Birbaslo.ttf');
+}
+
+@font-face {
+    font-family: advent;
+    src: url('../fonts/AdventPro.ttf');
+}
+
+@font-face {
+    font-family: regular;
+    src: url('../fonts/Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto.ttf');
+}
+
+/* -------------------------------------------------------------------------------- */
 
 /* FOOTER */
 footer {
@@ -40,6 +61,7 @@ footer section {
 
 .footer-company h4{
     /* outline: blue dashed 2px; */
+    font-family: main;
     font-size: 25px;
     color: var(--teal);
 }
@@ -64,6 +86,7 @@ footer section {
 .insta-link p,
 .email-link p,
 .phone-link p {
+    font-family: regular;
     padding: 3px;
     border-bottom: none;
 }
@@ -96,7 +119,7 @@ footer section {
 /* COPYRIGHT */
 .copyright {
     color: var(--teal);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: regular;
     font-size: 10px;
     margin-top: 100px;
 }

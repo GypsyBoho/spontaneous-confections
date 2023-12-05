@@ -1,12 +1,33 @@
 /* Colors */
 :root {
-    --purple: #9C36B5;
+    --purple: #6E3F61;
     --teal: #84D4D4;
     --tan: #FBCBBB;
     --accent: #D7A7C9;
 }
 
-/* ---------------------------------------- */
+/* Fonts */
+@font-face {
+    font-family: main;
+    src: url('../fonts/Birbaslo.ttf');
+}
+
+@font-face {
+    font-family: advent;
+    src: url('../fonts/AdventPro.ttf');
+}
+
+@font-face {
+    font-family: regular;
+    src: url('../fonts/Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto.ttf');
+}
+
+/* -------------------------------------------------------------------------------- */
 
 /* BACKGROUND */
 .home {
@@ -31,7 +52,7 @@
 /* TEXT */
 .promo {
     /* outline: red dashed 2px; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: roboto;
     font-size: 40px;
     font-weight: bold;
     margin: 50px 20px 0 50px;
@@ -40,7 +61,7 @@
 .message {
     /* outline: red dashed 2px; */
     margin: 25px 0 25px 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: regular;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -54,7 +75,7 @@
 .home button {
     background-color: var(--purple);
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: regular;
     border: none;
     padding: 10px 30px 10px 30px;
     margin-left: 50px;
@@ -63,4 +84,8 @@
 button a {
     text-decoration: none;
     color: white;
+}
+
+button:hover {
+    background-color: var(--accent);
 }
