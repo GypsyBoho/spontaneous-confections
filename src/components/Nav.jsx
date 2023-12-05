@@ -16,8 +16,10 @@ export default function Nav() {
     return (
         <nav>
             <div className='logo'>
-                <h1>Spontaneous <br /> Confections</h1>
-                <img src={cookie} alt="cookie logo" />
+                <ScrollLink to="home" smooth={true} duration={500}>
+                    <h1>Spontaneous <br /> Confections</h1>
+                    <img src={cookie} alt="cookie logo" />
+                </ScrollLink>
             </div>
             <div className='links'>
                 <div>
