@@ -13,12 +13,17 @@ export default function Home() {
     return (
         <section className='home'>
             <div className='box'>
-                <p className='promo'>Indulge in Festive Treats for Your Holiday Gatherings!</p>
-                <p className='message'>Secure your sweet moments with us today.</p>
+                <p className='promo'>See you at the <br /> 11th Annual <br /> Winter Art Market!</p>
+                <p className='message'> 
+                Tannery Arts Center <br />
+                December 9th <br />
+                10am - 5pm
+                </p>
                 <button>
-                    <ScrollLink to="contact" smooth={true} duration={500}>
+                    <a href="https://www.tanneryartscenter.org/winter-art-market-23" target='_blank'>MORE INFO</a>
+                    {/* <ScrollLink to="contact" smooth={true} duration={500}>
                         CONTACT US
-                    </ScrollLink>
+                    </ScrollLink> */}
                 </button>
             </div>
         </section>
