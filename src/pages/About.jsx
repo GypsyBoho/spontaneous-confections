@@ -1,5 +1,8 @@
 //----- IMPORTS -----//
 
+//Components
+import Banner from '../components/Banner';
+
 //CSS
 import '../assets/css/About.css';
 
@@ -11,7 +14,7 @@ export default function About() {
 
     //Return
     return (
-        <section>
+        <section className='about'>
             <div>
                 <h2>THE SPARK THAT STARTED IT ALL</h2>
                 <p>Thank you for stopping by! We're passionately
@@ -26,6 +29,7 @@ export default function About() {
             <aside>
                 <img src={cookie} alt="cookie logo" />
             </aside>
+            <Banner />
         </section>
     )
 }
