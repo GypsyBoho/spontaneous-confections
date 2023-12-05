@@ -1,0 +1,52 @@
+/* Colors */
+:root {
+    --purple: #6E3F61;
+    --teal: #84D4D4;
+    --tan: #FBCBBB;
+    --accent: #D7A7C9;
+}
+
+/* ---------------------------------------- */
+
+/* CONTACT */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ARTICLE */
+.contact-message {
+    outline: red dashed 3px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+/* TITLE */
+.contact-message h2 {
+    /* outline: red dashed 3px; */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    color: var(--purple);
+
+}
+
+/* MESSAGE */
+.contact-message p {
+    outline: red dashed 3px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 50px;
+}
+
+/* FORM */
+.form-container {
+    outline: red dashed 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    width: 50%;
+}

@@ -13,7 +13,7 @@ export default function ContactForm() {
 
     //Return
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='contact-form' onSubmit={handleSubmit}>
 
             <div>
                 {/*--- FIRST NAME ---*/}

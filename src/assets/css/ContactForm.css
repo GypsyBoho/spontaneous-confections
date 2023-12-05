@@ -1,0 +1,14 @@
+/* Colors */
+:root {
+    --purple: #6E3F61;
+    --teal: #84D4D4;
+    --tan: #FBCBBB;
+    --accent: #D7A7C9;
+}
+
+/* ---------------------------------------- */
+
+/* FORM */
+.contact-form {
+    outline: red dashed 3px;
+}
