@@ -7,7 +7,8 @@ import '../assets/css/Menu.css';
 import brownie from '../assets/images/brownies.jpeg';
 import pumpkin from '../assets/images/pumpkin.png';
 import turtle from '../assets/images/turtles.jpeg';
-import buttercookie from '../assets/images/butter-cookie.jpeg';
+import chocolatechunkcookie from '../assets/images/cookies.png'
+import buttercookie from '../assets/images/butter-cookie.png';
 import chocolatecake from '../assets/images/chocolate-cake.jpeg';
 import persiancake from '../assets/images/persian-cake.jpg';
 import cupcake from '../assets/images/cupcakes.jpeg';
@@ -35,7 +36,7 @@ export default function Menu() {
             description: 'Petite pumpkin shortbread cookies filled with luscious chocolate ganache, a candied pecan, and a touch of salted caramel.'
         },
         {
-            image: buttercookie,
+            image: chocolatechunkcookie,
             title: 'Chocolate Chunk Cookie',
             price: '3.00',
             description: 'Gourmet cookies featuring the delightful blend of cardamom, ginger, and generous chocolate chunks.'

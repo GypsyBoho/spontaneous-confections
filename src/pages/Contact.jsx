@@ -6,10 +6,6 @@ import ContactForm from '../components/ContactForm';
 //CSS
 import '../assets/css/Contact.css';
 
-//Images
-// import star from '../assets/images/star.png';
-// import header from '../assets/images/header.png';
-
 //----- EXPORTS -----//
 export default function Contact() {
 

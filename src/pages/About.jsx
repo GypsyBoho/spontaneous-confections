@@ -7,7 +7,7 @@ import Banner from '../components/Banner';
 import '../assets/css/About.css';
 
 //Images
-import cookie from '../assets/images/cookie-logo.png';
+import cookie from '../assets/images/purple-cookie.png';
 
 //----- EXPORTS -----//
 export default function About() {
@@ -17,15 +17,16 @@ export default function About() {
         <section className='about'>
             <div className='article'>
                 <div className='about-us'>
-                    <h2>THE SPARK <br /> THAT STARTED <br /> IT ALL</h2>
-                    <p>Thank you for stopping by! We're passionately
-                        crafting the most exquisite and unique pastries in
-                        Santa Cruz. As a small, veteran-owned baking business,
-                        we deeply appreciate your support for local enterprises.</p>
-                    <p>Looking for delicious treats to captivate your guests at
-                        your next event or party? Reach out to us a
+                    <h2>AN EXPLOSION OF FLAVOR</h2>
+                    <p>Come see taste and experience sweetness like never before. We're a small, black, veteran owned business, hard at work, creating the most delicious and distinctive pastries in Santa Cruz.
+                    </p>
+                    <p>Need delightful treats for your next event, party or celebration that will impress all your guests? Fill out the form below or send us an email at
                         <a href="mailto:baked@spontaneousconfections.com" className='about-email'> baked@spontaneousconfections.com</a> to place your order.
-                        Let us elevate your occasion with our irresistible creations!</p>
+                        Let us elevate your occasion with our irresistible creations!
+                    </p>
+                    <p>
+                    Thanks for supporting local!
+                    </p>
                 </div>
                 <aside className='ft-image'>
                     <img src={cookie} alt="cookie logo" />

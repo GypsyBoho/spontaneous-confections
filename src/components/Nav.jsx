@@ -7,7 +7,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import '../assets/css/Nav.css';
 
 //Images
-import cookie from '../assets/images/cookie-logo.png';
+import cookie from '../assets/images/purple-cookie.png';
 
 //----- EXPORTS -----//
 export default function Nav() {
@@ -17,8 +17,11 @@ export default function Nav() {
         <nav>
             <div className='logo'>
                 <ScrollLink to="home" smooth={true} duration={500}>
-                    <h1>Spontaneous <br /> Confections</h1>
                     <img src={cookie} alt="cookie logo" />
+                    <div>
+                        <h1>Spontaneous <br /> Confections</h1>
+                        <p>AN EXPLOSION OF FLAVOR</p>
+                    </div>
                 </ScrollLink>
             </div>
             <div className='links'>

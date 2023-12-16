@@ -75,7 +75,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: var(--teal) solid 10px;
+    border: var(--purple) solid 5px;
     height: 300px;
     width: 300px;
 }
@@ -124,9 +124,9 @@ h3 {
     /* outline: red dashed 2px; */
     font-family: regular;
     font-size: 18px;
-    background-color: var(--accent);
+    /* background-color: var(--accent); */
     color: var(--purple);
-    border: var(--purple) solid 3px;
+    /* border: var(--purple) solid 3px; */
     text-align: center;
     padding: 5px 15px 5px 15px;
     width: 125px;

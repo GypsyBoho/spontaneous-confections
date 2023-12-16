@@ -29,7 +29,7 @@ export default function Footer() {
                         href="https://www.instagram.com/spontaneous_confections/"
                         target='_blank'>
                         <img src={instagram} alt="instagram" />
-                        <p>@spontaneuos_confections</p>
+                        <p>@spontaneous_confections</p>
                     </a>
                     <a
                         className='email-link'
