@@ -132,3 +132,17 @@ h3 {
     width: 125px;
     margin: 10px 0 0 0;
 }
+
+/* -------------------------------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+
+    /* TITLE */
+    h3 {
+        outline: blue dashed 3px;
+        font-size: 50px;
+        margin: 10px 0 25px 0;
+    }
+
+}

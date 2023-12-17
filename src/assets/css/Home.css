@@ -39,6 +39,7 @@
     display: flex;
     justify-content: right;
     align-items: end;
+    margin: 0;
 }
 
 /* BOX */
@@ -88,4 +89,45 @@ button a {
 
 button:hover {
     background-color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+
+    /* BACKGROUND */
+    .home {
+        outline: red dashed 2px;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* BOX */
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        width: 90%;
+        height: auto;
+        margin: 0 0 10% 0;
+    }
+
+    /* TEXT & BUTTON */
+
+    /* TEXT */
+    .promo {
+        font-size: 30px;
+    }
+
+    .promo,
+    .message,
+    .home button {
+        margin: 20px;
+    }
+
 }

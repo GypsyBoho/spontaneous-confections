@@ -8,13 +8,14 @@ import Footer from './components/Footer';
 
 //CSS
 import 'normalize.css'
+import './App.css'
 
 //----- EXPORTS -----//
 function App() {
 
   //Return
   return (
-    <main>
+    <main className='site-main'>
       <Nav />
       <section id="home">
         <Home />

@@ -1,0 +1,10 @@
+.site-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.site-main section {
+    margin: 0;
+}
