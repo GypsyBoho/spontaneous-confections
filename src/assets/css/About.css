@@ -48,7 +48,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .article h2 {
@@ -99,18 +99,10 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 500px) {
 
-    /* ABOUT */
-    .about {
-        /* outline: blue dashed 2px; */
-        justify-content: center;
-    }
-
     /* ARTICLE */
     .article {
-        /* outline: green dashed 5px; */
         flex-direction: column-reverse;
         justify-content: center;
-        margin: -140px 0 0 0;
     }
 
     .article h2 {
@@ -138,7 +130,7 @@
         /* outline: green dashed 3px; */
         font-size: 15px;
         text-align: center;
-        margin: 15px 0 15px 0;
+        margin: 25px 0 25px 0;
     }
 
     /* BANNER */

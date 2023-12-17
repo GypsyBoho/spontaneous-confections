@@ -98,12 +98,12 @@ button:hover {
 
     /* BACKGROUND */
     .home {
-        outline: red dashed 2px;
+        /* outline: red dashed 2px; */
         height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
     }
 
     /* BOX */

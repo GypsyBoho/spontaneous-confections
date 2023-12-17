@@ -59,7 +59,7 @@ footer section {
     width: 50%;
 }
 
-.footer-company h4{
+.footer-company h4 {
     /* outline: blue dashed 2px; */
     font-family: main;
     font-size: 25px;
@@ -122,4 +122,27 @@ footer section {
     font-family: regular;
     font-size: 10px;
     margin-top: 100px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+
+    footer section {
+        /* outline: green dashed 3px; */
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+
+    /* SOCIAL MEDIA */
+    .social-media {
+        width: 100%;
+    }
+
+    /* COPYRIGHT */
+    .copyright {
+        margin-top: 20px;
+    }
 }

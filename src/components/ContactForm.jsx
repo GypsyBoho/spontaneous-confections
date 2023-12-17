@@ -22,7 +22,7 @@ export default function ContactForm() {
                 <div>
                     {/*--- FULL NAME ---*/}
                     <label
-                        for="full-name">Full Name
+                        htmlFor="full-name">Full Name
                     </label>
                     <input
                         type="text"
@@ -36,7 +36,7 @@ export default function ContactForm() {
                 <div>
                     {/*--- PHONE NUMBER ---*/}
                     <label
-                        for="phone-number">Phone Number
+                        htmlFor="phone-number">Phone Number
                     </label>
                     <input
                         type="text"
@@ -52,7 +52,7 @@ export default function ContactForm() {
                 <div>
                     {/*--- EMAIL ---*/}
                     <label
-                        for="email-address">Email Address
+                        htmlFor="email-address">Email Address
                     </label>
                     <input
                         type="email"
@@ -71,7 +71,7 @@ export default function ContactForm() {
                 <div>
                     {/*--- EVENT DATE ---*/}
                     <label
-                        for="event-date">Delivery Date
+                        htmlFor="event-date">Delivery Date
                     </label>
                     <input
                         type="date"

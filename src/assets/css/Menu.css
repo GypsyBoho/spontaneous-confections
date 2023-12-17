@@ -115,6 +115,7 @@ h3 {
 .menu-info h4 {
     font-family: advent;
     font-size: 25px;
+    text-align: center;
     color: var(--purple);
     margin: 0;
 }
@@ -123,13 +124,9 @@ h3 {
 .menu-info p {
     /* outline: red dashed 2px; */
     font-family: regular;
-    font-size: 18px;
-    /* background-color: var(--accent); */
+    font-size: 20px;
     color: var(--purple);
-    /* border: var(--purple) solid 3px; */
     text-align: center;
-    padding: 5px 15px 5px 15px;
-    width: 125px;
     margin: 10px 0 0 0;
 }
 
@@ -140,9 +137,44 @@ h3 {
 
     /* TITLE */
     h3 {
-        outline: blue dashed 3px;
+        /* outline: blue dashed 3px; */
         font-size: 50px;
         margin: 10px 0 25px 0;
+    }
+
+    /* GRID */
+    .menu-grid {
+        /* outline: green dashed 3px; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .menu-item {
+        /* outline: red dashed 3px; */
+        width: 200px;
+        height: 300px;
+        margin: auto;
+    }
+
+    /* IMAGE */
+    .menu-image {
+        /* outline: blue dashed 3px; */
+        border: var(--purple) solid 3px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .menu-image img {
+        width: 150px;
+    }
+
+    /* DESCRIPTION */
+    .menu-image p {
+        font-size: 15px;
+        margin: 0 10px 0 10px;
     }
 
 }

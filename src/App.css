@@ -2,9 +2,5 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: start;
-}
-
-.site-main section {
-    margin: 0;
+    width: 100%;
 }

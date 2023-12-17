@@ -79,3 +79,41 @@
     width: 30%;
     height: 50%;
 }
+
+/* -------------------------------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+
+    /* CONTACT */
+    .contact {
+        flex-direction: column;
+    }
+
+    /* ARTICLE */
+    .contact-message {
+        /* outline: red dashed 3px; */
+        width: 90%;
+        height: auto;
+    }
+
+    /* TITLE */
+    .contact-message h2 {
+        font-size: 40px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    /* MESSAGE */
+    .contact-message p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* FORM */
+    .form-container {
+        /* outline: red dashed 3px; */
+        width: 90%;
+        height: auto;
+    }
+}
