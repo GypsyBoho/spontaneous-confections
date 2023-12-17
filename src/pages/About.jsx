@@ -18,7 +18,7 @@ export default function About() {
             <div className='article'>
                 <div className='about-us'>
                     <h2>AN EXPLOSION OF FLAVOR</h2>
-                    <p>Come see taste and experience sweetness like never before. We're a small, black, veteran owned business, hard at work, creating the most delicious and distinctive pastries in Santa Cruz.
+                    <p>Come see taste and experience sweetness like never before. We're a black veteran owned business hard at work, creating the most delicious and distinctive pastries in Santa Cruz.
                     </p>
                     <p>Need delightful treats for your next event, party or celebration that will impress all your guests? Fill out the form below or send us an email at
                         <a href="mailto:baked@spontaneousconfections.com" className='about-email'> baked@spontaneousconfections.com</a> to place your order.

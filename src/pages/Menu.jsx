@@ -6,7 +6,7 @@ import '../assets/css/Menu.css';
 //Images
 import brownie from '../assets/images/brownies.jpeg';
 import pumpkin from '../assets/images/pumpkin.png';
-import turtle from '../assets/images/turtles.jpeg';
+import turtle from '../assets/images/topsy-turvey-turtles';
 import chocolatechunkcookie from '../assets/images/cookies.png'
 import buttercookie from '../assets/images/butter-cookie.png';
 import chocolatecake from '../assets/images/chocolate-cake.jpeg';
@@ -51,7 +51,7 @@ export default function Menu() {
             image: chocolatecake,
             title: 'Flourless Chocolate Cake',
             price: '18.00',
-            description: 'Lavish 72% dark chocolate flourless cake, enrobed in a velvety lavender chocolate ganache.'
+            description: '72% dark chocolate flourless cake, enrobed in a velvety lavender chocolate ganache.'
         },
         {
             image: persiancake,

@@ -28,7 +28,7 @@ export default function Home() {
                         Santa Cruz Mountain Brewing
                     </a><br />
                     December 17th <br />
-                    2pm - 4pm
+                    1pm - 5pm
                 </p>
 
                 {/* Linked Button */}
