@@ -6,7 +6,7 @@ import '../assets/css/Menu.css';
 //Images
 import brownie from '../assets/images/brownies.jpeg';
 import pumpkin from '../assets/images/pumpkin.png';
-import turtle from '../assets/images/topsy-turvey-turtles';
+import turtle from '../assets/images/topsy-turvey-turtles.jpeg';
 import chocolatechunkcookie from '../assets/images/cookies.png'
 import buttercookie from '../assets/images/butter-cookie.png';
 import chocolatecake from '../assets/images/chocolate-cake.jpeg';
@@ -33,7 +33,7 @@ export default function Menu() {
             image: turtle,
             title: 'Topsy Turvey Turtle',
             price: '2.75',
-            description: 'Petite pumpkin shortbread cookies filled with luscious chocolate ganache, a candied pecan, and a touch of salted caramel.'
+            description: 'Pumpkin shortbread cookies filled with 72% dark chocolate ganache, a candied pecan, and a touch of salted caramel.'
         },
         {
             image: chocolatechunkcookie,
