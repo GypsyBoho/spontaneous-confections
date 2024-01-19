@@ -17,7 +17,7 @@ export default function Home() {
             <div className='box'>
 
                 {/* Bolded Message */}
-                <p className='promo'>See you at the <br /> Santa Cruz Mountain Brewing!</p>
+                <p className='promo'>Happy 2024 <br /> Let us elevate your occasion with our irresistible creations!</p>
 
                 {/* Message */}
                 <p className='message'>
