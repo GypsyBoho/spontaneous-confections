@@ -19,31 +19,18 @@ export default function Home() {
                 {/* Bolded Message */}
                 <p className='promo'>Happy 2024. <br /> Let us elevate your occasion with our irresistible creations!</p>
 
-                {/* Message */}
-                {/*<p className='message'>
-                    <a
-                        className='address'
-                        href=""
-                        target='_blankl'>
-                        Santa Cruz Mountain Brewing
-                    </a><br />
-                    December 17th <br />
-                    1pm - 5pm
-                </p>*/}
-
                 {/* Linked Button */}
                 <button>
-                    {/* <a href="" target='_blank'>MORE INFO</a> */}
+                    {/* <a href="" target='_blank'>CONTACT US</a> */}
 
                     {/* Link to Contact Form */}
-                    {<ScrollLink
+                    <ScrollLink
                         to="contact"
                         smooth={true}
                         duration={500}>
                         CONTACT US
-                    </ScrollLink>}
+                    </ScrollLink>
                 </button>
-                </section>
             </div>
         </section>
     )
