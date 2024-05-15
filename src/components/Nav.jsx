@@ -7,7 +7,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import '../assets/css/Nav.css';
 
 //Images
-import cookie from '../assets/images/purple-cookie.png';
+import cookie from '../assets/images/whisk-spatula-logo-24.5';
 
 //----- EXPORTS -----//
 export default function Nav() {
