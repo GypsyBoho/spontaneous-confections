@@ -4,7 +4,7 @@
 import '../assets/css/Footer.css';
 
 //Images
-import cookie from '../assets/images/cookie-logo.png';
+import cookie from '../assets/images/NEW-logo-peach-trans.png';
 import instagram from '../assets/images/instagram.png';
 import email from '../assets/images/email.png';
 import phone from '../assets/images/phone.png';
@@ -17,11 +17,11 @@ export default function Footer() {
         <footer>
             <section>
                 <div className='footer-company'>
+                <img src={cookie} alt="cookie logo" />
                     <h4>
                         Spontaneous <br />
                         Confections
                     </h4>
-                    <img src={cookie} alt="cookie logo" />
                 </div>
                 <div className='social-media'>
                     <a
