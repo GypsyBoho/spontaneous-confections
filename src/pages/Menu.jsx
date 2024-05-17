@@ -84,7 +84,7 @@ export default function Menu() {
         {
             image: chocolatecake,
             title: 'Flourless Chocolate Cake',
-            price: '4" round $30'<br></br> '9" round $70',
+            price: '4" round $30 9" round $70',
             description: '72% dark flourless chocolate cake, enrobed in a mirror glaze.'
         },
         {
