@@ -7,7 +7,7 @@ import Banner from '../components/Banner';
 import '../assets/css/About.css';
 
 //Images
-import cookie from '../assets/images/purple-cookie.png';
+import cookie from '../assets/images/whisk-spatula-logo-24.5.jpg';
 
 //----- EXPORTS -----//
 export default function About() {
