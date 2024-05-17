@@ -35,7 +35,7 @@ export default function Footer() {
                         className='email-link'
                         href="mailto: baked@spontaneuosconfections.com">
                         <img src={email} alt="email" />
-                        <p>baked@spontaneuosconfections.com</p>
+                        <p>baked@spontaneousconfections.com</p>
                     </a>
                     <a
                         className='phone-link'
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
             </section>
             <div className='copyright'>
-                <p>© 2023, Spontaneous Confections</p>
+                <p>Spontaneous Confections © 2024</p>
             </div>
         </footer>
     )
