@@ -4,7 +4,7 @@
 import '../assets/css/Menu.css';
 
 //Images
-import brownie from '../assets/images/brownies-banner.jpg';
+import brownie from '../assets/images/brownies-banner.jpeg';
 import turtlebrownie from '../assets/images/turtle-brownie.jpg';
 import pumpkin from '../assets/images/pumpkin.png';
 import turtle from '../assets/images/topsy-turvey-turtles.jpeg';
@@ -72,7 +72,7 @@ export default function Menu() {
         {
             image: turtle,
             title: 'Topsy Turvey Turtle',
-            price: '3.00',
+            price: '2.75',
             description: 'Pumpkin shortbread cookies filled with 72% dark chocolate ganache, a candied pecan, and a touch of salted caramel.'
         },
         {
@@ -84,7 +84,7 @@ export default function Menu() {
         {
             image: chocolatecake,
             title: 'Flourless Chocolate Cake',
-            price: '4" round $30 9" round $70',
+            price: '4" round $30 9" round $70 ',
             description: '72% dark flourless chocolate cake, enrobed in a mirror glaze.'
         },
         {
