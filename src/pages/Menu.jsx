@@ -4,7 +4,7 @@
 import '../assets/css/Menu.css';
 
 //Images
-import brownie from '../assets/images/brownies-banner.jpeg';
+import brownie from '../assets/images/brownies.jpeg';
 import turtlebrownie from '../assets/images/turtle-brownie.jpg';
 import pumpkin from '../assets/images/pumpkin.png';
 import turtle from '../assets/images/topsy-turvey-turtles.jpeg';
