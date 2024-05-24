@@ -31,6 +31,7 @@
 
 /* BACKGROUND */
 .menu {
+    outline: red 3px dotted;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,131 +51,28 @@ h3 {
 
 /* GRID */
 .menu-grid {
-    /* outline: green dashed 3px; */
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 75%;
+    outline: green dashed 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     margin-bottom: 75px;
 }
 
-.menu-item {
-    /* outline: red dashed 3px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 400px;
-    margin: 25px 10px 25px 10px;
+/* GRID */
+.regular-menu-grid {
+    outline: blue dashed 3px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-bottom: 75px;
 }
 
-/* IMAGE */
-.menu-image {
-    /* outline: blue dashed 3px; */
-    background-color: var(--teal);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: var(--purple) solid 5px;
-    height: 300px;
-    width: 300px;
-}
-
-.menu-image img {
-    width: 300px;
-}
-
-.menu-image:hover .image {
-    display: none;
-}
-
-/* DESCRIPTION */
-.menu-image p {
-    /* outline: red dashed 3px; */
-    font-family: regular;
-    font-size: 20px;
-    text-align: center;
-    margin: 0 20px 0 20px;
-    display: none;
-}
-
-.menu-image:hover .description {
-    display: block;
-}
-
-.menu-info {
-    /* outline: blue dashed 3px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0 0 0;
-}
-
-/* NAME */
-.menu-info h4 {
-    font-family: advent;
-    font-size: 25px;
-    text-align: center;
-    color: var(--purple);
-    margin: 0;
-}
-
-/* PRICING */
-.menu-info p {
-    /* outline: red dashed 2px; */
-    font-family: regular;
-    font-size: 20px;
-    color: var(--purple);
-    text-align: center;
-    margin: 10px 0 0 0;
-}
-
-/* -------------------------------------------------------------------------------- */
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 500px) {
-
-    /* TITLE */
-    h3 {
-        /* outline: blue dashed 3px; */
-        font-size: 50px;
-        margin: 10px 0 25px 0;
-    }
-
-    /* GRID */
-    .menu-grid {
-        /* outline: green dashed 3px; */
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0;
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .menu-item {
-        /* outline: red dashed 3px; */
-        width: 200px;
-        height: 300px;
-        margin: auto;
-    }
-
-    /* IMAGE */
-    .menu-image {
-        /* outline: blue dashed 3px; */
-        border: var(--purple) solid 3px;
-        height: 150px;
-        width: 150px;
-    }
-
-    .menu-image img {
-        width: 150px;
-    }
-
-    /* DESCRIPTION */
-    .menu-image p {
-        font-size: 15px;
-        margin: 0 10px 0 10px;
-    }
-
+/* GRID */
+.seasonal-menu-grid {
+    outline: red dashed 3px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-bottom: 25px;
 }

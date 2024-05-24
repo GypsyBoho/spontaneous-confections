@@ -47,7 +47,7 @@
     white-space: nowrap;
     width: 24ch;
     margin: 0;
-    text-shadow: 48ch 0 currentColor, 96ch 0 currentColor, 144ch 0 currentColor, 192ch 0 currentColor;
+    text-shadow: 48ch 0 currentColor, 96ch 0 currentColor, 144ch 0 currentColor, 192ch 0 currentColor, 240ch 0 currentColor;
     will-change: transform;
     animation: marquee 10s linear infinite;
   }
