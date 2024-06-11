@@ -59,6 +59,12 @@
     margin: 50px 20px 0 50px;
 }
 
+.promo-2 {
+    /* outline: red dashed 2px; */
+    font-family: roboto;
+    font-size: 25px;
+}
+
 .message {
     /* outline: red dashed 2px; */
     margin: 25px 0 25px 50px;

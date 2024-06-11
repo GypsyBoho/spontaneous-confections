@@ -16,10 +16,10 @@ export default function Menu() {
         <section className='menu'>
             <h3>MEET THE MENU</h3>
             <section className='menu-grid'>
-               <div className='regular-menu-grid'>
+               <div className='r-menu-grid'>
                 <RegularMenu />
                </div>
-               <div className='seasonal-menu-grid'>
+               <div className='s-menu-grid'>
                 <SeasonalMenu />
                </div>
             </section>

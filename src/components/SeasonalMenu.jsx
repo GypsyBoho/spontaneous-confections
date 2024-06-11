@@ -45,60 +45,60 @@ export default function Menu() {
             price: '10.00',
             description: 'Tartlet with almond pistachio cream, apricot coulis, rolled in pistachios and topped with a candied rose.'
         },
-        {
-            image: chocolateraspberry,
-            title: 'Chocolate Raspberry Tartlet',
-            price: '10.00',
-            description: 'Tartlet with almond pistachio cream, apricot coulis, rolled in pistachios and topped with a candied rose.'
-        },
-        {
-            image: lemonmeringue,
-            title: 'Lemon Meringue Tartlet',
-            price: '10.00',
-            description: 'Tartlet with fresh meyer lemon curd topped with a toasted lemon meringue rose.'
-        },
-        {
-            image: chocolateentremet,
-            title: 'Chocolate Entremet',
-            price: '15.00',
-            description: 'Chocolate tartlet with a layer of crunchy praline, chocolate ganache with a raspberry coulis, topped with a chocolate pate a bombe mousse, enrobed in a mirror glaze.'
-        },
-        {
-            image: pumpkin,
-            title: 'Pumpkin Cheesecake',
-            price: '6.00',
-            description: 'Honey meringue crowned pumpkin cheesecake, adorned with gingersnap dust.'
-        },
-        {
-            image: turtle,
-            title: 'Topsy Turvey Turtle',
-            price: '2.75',
-            description: 'Pumpkin shortbread cookies filled with 72% dark chocolate ganache, a candied pecan, and a touch of salted caramel.'
-        },
-        {
-            image: buttercookie,
-            title: 'Butter Cookie',
-            price: '30.00 a box 34ct',
-            description: 'Luxurious butter cookies, available in both heavenly chocolate-infused and classic variations for an extra indulgent touch.'
-        },
-        {
-            image: chocolatecake,
-            title: 'Flourless Chocolate Cake',
-            price: '4" round $30 9" round $70 ',
-            description: '72% dark flourless chocolate cake, enrobed in a mirror glaze.'
-        },
-        {
-            image: persiancake,
-            title: 'Persian Love Cake',
-            price: '12.00',
-            description: 'Cardamom-infused Persian love cake adorned with the delicate flavors of pistachio and rose.'
-        },
+        // {
+        //     image: chocolateraspberry,
+        //     title: 'Chocolate Raspberry Tartlet',
+        //     price: '10.00',
+        //     description: 'Tartlet with almond pistachio cream, apricot coulis, rolled in pistachios and topped with a candied rose.'
+        // },
+        // {
+        //     image: lemonmeringue,
+        //     title: 'Lemon Meringue Tartlet',
+        //     price: '10.00',
+        //     description: 'Tartlet with fresh meyer lemon curd topped with a toasted lemon meringue rose.'
+        // },
+        // {
+        //     image: chocolateentremet,
+        //     title: 'Chocolate Entremet',
+        //     price: '15.00',
+        //     description: 'Chocolate tartlet with a layer of crunchy praline, chocolate ganache with a raspberry coulis, topped with a chocolate pate a bombe mousse, enrobed in a mirror glaze.'
+        // },
+        // {
+        //     image: pumpkin,
+        //     title: 'Pumpkin Cheesecake',
+        //     price: '6.00',
+        //     description: 'Honey meringue crowned pumpkin cheesecake, adorned with gingersnap dust.'
+        // },
+        // {
+        //     image: turtle,
+        //     title: 'Topsy Turvey Turtle',
+        //     price: '2.75',
+        //     description: 'Pumpkin shortbread cookies filled with 72% dark chocolate ganache, a candied pecan, and a touch of salted caramel.'
+        // },
+        // {
+        //     image: buttercookie,
+        //     title: 'Butter Cookie',
+        //     price: '30.00 a box 34ct',
+        //     description: 'Luxurious butter cookies, available in both heavenly chocolate-infused and classic variations for an extra indulgent touch.'
+        // },
+        // {
+        //     image: chocolatecake,
+        //     title: 'Flourless Chocolate Cake',
+        //     price: '4" round $30 9" round $70 ',
+        //     description: '72% dark flourless chocolate cake, enrobed in a mirror glaze.'
+        // },
+        // {
+        //     image: persiancake,
+        //     title: 'Persian Love Cake',
+        //     price: '12.00',
+        //     description: 'Cardamom-infused Persian love cake adorned with the delicate flavors of pistachio and rose.'
+        // },
     ]
 
     //Return
     return (
         <section className='seasonal-menu'>
-            {/* <h3>Seasonal Menu</h3>
+            <h3>Seasonal Menu</h3>
             <section className='seasonal-menu-grid'>
                 {items.map((item) => (
                     <div className='s-menu-item'>
@@ -112,7 +112,8 @@ export default function Menu() {
                         </div>
                     </div>
                 ))}
-            </section> */}
+            </section>
         </section>
     )
 }
+

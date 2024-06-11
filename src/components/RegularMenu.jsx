@@ -98,7 +98,8 @@ export default function Menu() {
     //Return
     return (
         <section className='regular-menu'>
-            {/* <section className='regular-menu-grid'>
+            <h3>Regular Menu</h3>
+            <section className='regular-menu-grid'>
                 {items.map((item) => (
                     <div className='regular-menu-item'>
                         <div className='menu-image'>
@@ -111,7 +112,7 @@ export default function Menu() {
                         </div>
                     </div>
                 ))}
-            </section> */}
+            </section>
         </section>
     )
 }

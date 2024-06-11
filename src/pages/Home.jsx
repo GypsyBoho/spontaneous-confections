@@ -17,7 +17,9 @@ export default function Home() {
             <div className='box'>
 
                 {/* Bolded Message */}
-                <p className='promo'>Let us elevate your occasion with our irresistible creations. Get in touch to discover our current offerings or take a look at our menu</p>
+                <p className='promo'>Let us elevate your occasion with our irresistible creations. 
+                <p className='promo-2'>Get in touch to discover our current offerings or take a look at our menu!</p>
+                </p>
                 <br />
                 {/* Linked Button */}
                 <button>
