@@ -38,6 +38,10 @@
     width: 80%;
 }
 
+.seasonal-menu h3 {
+    font-size: 50px;
+}
+
 /* REGULAR MENU CONTAINER */
 .seasonal-menu-grid {
     /* outline: red dashed 3px; */

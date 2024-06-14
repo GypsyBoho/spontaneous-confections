@@ -50,7 +50,7 @@
 .full-name,
 .email-date,
 .input-message {
-    /* outline: blue dashed 2px; */
+    /* outline: green dashed 2px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,7 +80,7 @@ label {
 .full-name input,
 .email-date input {
     /* outline: green dashed 2px; */
-    border: var(--purple) solid 3px;
+    border: var(--purple) solid 2px;
     color: var(--purple);
     width: 100%;
     height: 30px;
@@ -88,7 +88,7 @@ label {
 }
 
 .input-message textarea {
-    border: var(--purple) solid 3px;
+    border: var(--purple) solid 2px;
     color: var(--purple);
     width: 100%;
     height: 100px;

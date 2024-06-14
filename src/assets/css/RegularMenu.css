@@ -38,6 +38,15 @@
     width: 80%;
 }
 
+.regular-menu h3 {
+    /* outline: red dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 50px;
+}
+
 /* REGULAR MENU CONTAINER */
 .regular-menu-grid {
     /* outline: red dashed 3px; */
